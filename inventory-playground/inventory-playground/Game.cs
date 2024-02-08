@@ -6,10 +6,9 @@
         {
             var userInput = string.Empty;
 
-            var rooms = new List<int> { 1, 2, 3, 4, 5 };
             var adjacencyMatrix = new List<List<int>> { new() { 2, 3, 4, 5 }, new() { 1 }, new() { 1 }, new() { 1 }, new() { 1 }};
 
-            var currentRoom = rooms[0];
+            var currentRoom = 1;
 
             var connectedRooms = string.Join(", ", adjacencyMatrix[currentRoom - 1]);
 
